@@ -10,7 +10,6 @@ import (
 	"github.com/katzenpost/catshadow"
 	catconfig "github.com/katzenpost/catshadow/config"
 	"github.com/katzenpost/client"
-	clientConfig "github.com/katzenpost/client/config"
 	gap "github.com/muesli/go-app-paths"
 	"github.com/therecipe/qt/core"
 	"github.com/therecipe/qt/gui"
@@ -128,8 +127,7 @@ func main() {
 		if _, err := os.Stat(*stateFile); !os.IsNotExist(err) {
 			panic("cannot generate state file, already exists")
 		}
-
-		cfg, linkKey := client.AutoRegisterRandomClient(cfg)
+		cfg, linkKey := client.RandomKeyAndProvider(cfg)
 		c, err := client.New(cfg)
 		if err != nil {
 			panic(err)
@@ -146,14 +144,13 @@ func main() {
 			panic(err)
 		}
 
-		user := fmt.Sprintf("%x", linkKey.PublicKey().Bytes())
-		catShadowClient, err = catshadow.NewClientAndRemoteSpool(backendLog, c, stateWorker, user, linkKey)
+		catShadowClient, err = catshadow.NewClientAndRemoteSpool(backendLog, c, stateWorker, cfg.Account.User, linkKey)
 		if err != nil {
 			panic(err)
 		}
 		fmt.Println("catshadow client successfully created")
 	} else {
-		cfg, _ := client.AutoRegisterRandomClient(cfg)
+		cfg, linkKey := client.RandomKeyAndProvider(cfg)
 
 		// Load previous state to setup our current client state.
 		backendLog, err := catshadowCfg.InitLogBackend()
@@ -164,10 +161,6 @@ func main() {
 		if err != nil {
 			panic(err)
 		}
-		cfg.Account = &clientConfig.Account{
-			User:     state.User,
-			Provider: state.Provider,
-		}
 
 		// Run a Client.
 		c, err := client.New(cfg)
@@ -176,7 +169,7 @@ func main() {
 		}
 
 		// Make a catshadow Client.
-		catShadowClient, err = catshadow.New(c.GetBackendLog(), c, stateWorker, state)
+		catShadowClient, err = catshadow.New(c.GetBackendLog(), c, stateWorker, state, linkKey)
 		if err != nil {
 			panic(err)
 		}
