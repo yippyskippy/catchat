@@ -7,8 +7,8 @@ require (
 	github.com/dustin/go-humanize v1.0.0
 	github.com/gen2brain/beeep v0.0.0-20200420150314-13046a26d502
 	github.com/gopherjs/gopherjs v0.0.0-20200217142428-fce0ec30dd00 // indirect
-	github.com/katzenpost/catshadow v0.0.10-0.20200517132227-8f654c50aa18
-	github.com/katzenpost/client v0.0.8-0.20200517110816-f2729684554a
+	github.com/katzenpost/catshadow v0.0.10-0.20200517185312-59752541b783
+	github.com/katzenpost/client v0.0.8-0.20200517185103-1b42ba455d02
 	github.com/muesli/go-app-paths v0.2.1
 	github.com/sirupsen/logrus v1.6.0 // indirect
 	github.com/therecipe/env_darwin_amd64_513 v0.0.0-20190626001412-d8e92e8db4d0 // indirect
