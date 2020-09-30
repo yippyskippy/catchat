@@ -83,6 +83,8 @@ github.com/katzenpost/authority v0.0.13 h1:pJWeyZ3iS7clfk91f6T9ESoNPcT43s59rtlGD
 github.com/katzenpost/authority v0.0.13/go.mod h1:6wFg6ZElyEHYsPN5PPLTT+KmmTAKucjIPVGPDdir9lQ=
 github.com/katzenpost/catshadow v0.0.12-0.20200930025219-02332186f8b3 h1:LOCxITQGO1SNuFQ92hNRL1DdGHWJLTU1c8VhsRqolrE=
 github.com/katzenpost/catshadow v0.0.12-0.20200930025219-02332186f8b3/go.mod h1:Si61K/3mN0Jo4YOcs5FX+G30jdHwFLqvVPVqAM3nZ0Q=
+github.com/katzenpost/catshadow v0.0.12-0.20200930123126-c2faa43a090b h1:hAn5DCTykkh0o47cR8L7/66b238QGHnxSlPpYy+5bss=
+github.com/katzenpost/catshadow v0.0.12-0.20200930123126-c2faa43a090b/go.mod h1:5uBrupzw410OR0I/eagK7sQS+uXOole9ZgZuuqMDsZU=
 github.com/katzenpost/chacha20 v0.0.0-20190907175341-fad9676fa4d8/go.mod h1:d9kxwmGOcutgP6bQwr2xaLInaW5yJsxsoPRyUIG0J/E=
 github.com/katzenpost/chacha20 v0.0.0-20190910113340-7ce890d6a556 h1:9gHByAWH1LydGefFGorN1ZBRZ/Oz9iozdzMvRTWpyRw=
 github.com/katzenpost/chacha20 v0.0.0-20190910113340-7ce890d6a556/go.mod h1:d9kxwmGOcutgP6bQwr2xaLInaW5yJsxsoPRyUIG0J/E=
@@ -90,6 +92,8 @@ github.com/katzenpost/client v0.0.8 h1:g4a5IDKu+AxhGru9E+OVGjKgTeY8UkToNETeFgAel
 github.com/katzenpost/client v0.0.8/go.mod h1:KFpgpGWwmGzXVeq9JGU7swr2x11jk7W/WBmjtSdA89A=
 github.com/katzenpost/client v0.0.9-0.20200927213113-194ccf11b6bc h1:XtsfeY3rw2zW++IQQiNOzDpMzhOGUpR0VB3dcxTmsQg=
 github.com/katzenpost/client v0.0.9-0.20200927213113-194ccf11b6bc/go.mod h1:6FZU7dl7pmcWSs2RUl3ozDU7Sfqe8D138pdzEGcezCE=
+github.com/katzenpost/client v0.0.9-0.20200930100131-4c27a1fc68e2 h1:c+dnUQogDi2ZeiEQZW8JN9Fyw/eJynE5IE6OoinD58w=
+github.com/katzenpost/client v0.0.9-0.20200930100131-4c27a1fc68e2/go.mod h1:6FZU7dl7pmcWSs2RUl3ozDU7Sfqe8D138pdzEGcezCE=
 github.com/katzenpost/core v0.0.11 h1:WU1C35IumVhRkrEvVgqtfvxWSfxbuLO5neXIKKEdDNU=
 github.com/katzenpost/core v0.0.11/go.mod h1:z8uIYZj4iaLCqXLcoY8nz/YBqVi/s1RnZkHFAd797SQ=
 github.com/katzenpost/doubleratchet v0.0.5-0.20200927215628-bf9f599459cc h1:2NnyTwkjbIcWpniYcRkEDEJZv2kmBuYEYK539LSWzpg=
