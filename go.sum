@@ -83,6 +83,8 @@ github.com/katzenpost/authority v0.0.13 h1:pJWeyZ3iS7clfk91f6T9ESoNPcT43s59rtlGD
 github.com/katzenpost/authority v0.0.13/go.mod h1:6wFg6ZElyEHYsPN5PPLTT+KmmTAKucjIPVGPDdir9lQ=
 github.com/katzenpost/catshadow v0.0.17-0.20201006184814-333aa8e6299b h1:3ZPHQZvho5MB0CwoPBy095iaHxdKMuBM8f01op7zJ7c=
 github.com/katzenpost/catshadow v0.0.17-0.20201006184814-333aa8e6299b/go.mod h1:zYdqoMhInqU7h6OdZuLJcidpf9jyQTQBNAnip/3yKuw=
+github.com/katzenpost/catshadow v0.0.17-0.20201006212106-098ab2153a67 h1:nk+MCQGDsOsTeOp9ci20dZhItLOd41vcgasjaexhMPM=
+github.com/katzenpost/catshadow v0.0.17-0.20201006212106-098ab2153a67/go.mod h1:EWgUy0AP1Tn1ZCCxH6Z8spGVDZTk5Qo7i8bNBfD8cpI=
 github.com/katzenpost/chacha20 v0.0.0-20190907175341-fad9676fa4d8/go.mod h1:d9kxwmGOcutgP6bQwr2xaLInaW5yJsxsoPRyUIG0J/E=
 github.com/katzenpost/chacha20 v0.0.0-20190910113340-7ce890d6a556 h1:9gHByAWH1LydGefFGorN1ZBRZ/Oz9iozdzMvRTWpyRw=
 github.com/katzenpost/chacha20 v0.0.0-20190910113340-7ce890d6a556/go.mod h1:d9kxwmGOcutgP6bQwr2xaLInaW5yJsxsoPRyUIG0J/E=
@@ -90,8 +92,12 @@ github.com/katzenpost/client v0.0.8 h1:g4a5IDKu+AxhGru9E+OVGjKgTeY8UkToNETeFgAel
 github.com/katzenpost/client v0.0.8/go.mod h1:KFpgpGWwmGzXVeq9JGU7swr2x11jk7W/WBmjtSdA89A=
 github.com/katzenpost/client v0.0.11 h1:jfqqkOC0fPTtvoxIwZAJ+oN0bAh8CFQEokcMBm28Xhs=
 github.com/katzenpost/client v0.0.11/go.mod h1:5muQfJiXrio2Dja4UY501XwsqET8wRDdfO6w4DFTkPU=
+github.com/katzenpost/client v0.0.12-0.20201006210019-eace7a1cbdb5 h1:p7UmQvatqCVZtb6tdIIGjmU4FHel/rrnuIu2m+preZA=
+github.com/katzenpost/client v0.0.12-0.20201006210019-eace7a1cbdb5/go.mod h1:QvjG96PO/8YEss7+Yo/C1oydEMdlBdBCh8GZvh0ehNw=
 github.com/katzenpost/core v0.0.11 h1:WU1C35IumVhRkrEvVgqtfvxWSfxbuLO5neXIKKEdDNU=
 github.com/katzenpost/core v0.0.11/go.mod h1:z8uIYZj4iaLCqXLcoY8nz/YBqVi/s1RnZkHFAd797SQ=
+github.com/katzenpost/core v0.0.12-0.20201006205257-33864e28e7df h1:as2xkeUYxDUdy7VcM31wXWAXRaf3e0fjNBjes0hHva8=
+github.com/katzenpost/core v0.0.12-0.20201006205257-33864e28e7df/go.mod h1:z8uIYZj4iaLCqXLcoY8nz/YBqVi/s1RnZkHFAd797SQ=
 github.com/katzenpost/doubleratchet v0.0.6 h1:sDSaBXa3IqYF2XYa06nG1w5n+zvMApCT0CRSBq4STzI=
 github.com/katzenpost/doubleratchet v0.0.6/go.mod h1:odNOjX2+Ypjp2OZuyB7fcLc7CYcBkBMcDBiicwi7Xno=
 github.com/katzenpost/memspool v0.0.10/go.mod h1:NZGtvAV25MHASCTYFMdHn7I4r0BsXlSdE7kLTauBeH4=
