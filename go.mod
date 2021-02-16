@@ -7,7 +7,7 @@ require (
 	github.com/dustin/go-humanize v1.0.0
 	github.com/gen2brain/beeep v0.0.0-20200420150314-13046a26d502
 	github.com/gopherjs/gopherjs v0.0.0-20200217142428-fce0ec30dd00 // indirect
-	github.com/katzenpost/catshadow v0.0.35-0.20210214050738-a4a4b701a7e5
+	github.com/katzenpost/catshadow v0.0.35-0.20210216145231-d9e195b3ddae
 	github.com/katzenpost/client v0.0.21
 	github.com/katzenpost/memspool v0.0.14 // indirect
 	github.com/katzenpost/panda v0.0.14 // indirect
