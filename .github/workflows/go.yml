@@ -26,13 +26,10 @@ jobs:
           sudo apt-get install qml-module-qtmultimedia qml-module-qt-labs-folderlistmodel qml-module-qt-labs-settings
 
       - name: Install Qt bindings
-        run: go install -v -tags=no_env github.com/therecipe/qt/cmd/...
-
-      - name: Vendor Go modules
-        run: go mod vendor
+        run: GO111MODULE=off go install -v -tags=no_env github.com/therecipe/qt/cmd/...
 
       - name: Build Qt golang bindings
-        run: $(go env GOPATH)/bin/qtsetup
+        run: GO111MODULE=off $(go env GOPATH)/bin/qtsetup
 
       - name: Vendor Go modules
         run: go mod vendor
