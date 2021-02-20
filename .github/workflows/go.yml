@@ -31,5 +31,11 @@ jobs:
       - name: Vendor Go modules
         run: go mod vendor
 
+      - name: Build Qt golang bindings
+        run: $(go env GOPATH)/bin/qtsetup
+
+      - name: Vendor Go modules
+        run: go mod vendor
+
       - name: Build
         run: $(go env GOPATH)/bin/qtdeploy build desktop .
